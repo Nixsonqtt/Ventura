@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html {
+    background-color: #f5f5f5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Inter;
+    background-color: white;
+    padding-bottom: 7rem;
+    box-shadow: 2px 2px 30px;
+    border-radius: 5px;
+
+}
+
+.navul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 20px;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+#logo {
+    padding-top: 0.7px;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 60px;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    font-family: Inter;
+    font-weight: 500;
+
+}
+header {
+    position: relative;
+    padding-left: 3rem;
+}
+
+button {
+    font-family: Inter;
+    color: white;
+    background-color: blue;
+    padding: 7px;
+    border-radius: 8px;
+    border: none;
+}
+
+.girl {
+    position: absolute;
+    right: 80px;
+    top: 0;
+}
+
+.button {
+    padding-top: 1.2rem;
+}
+
+.watch {
+    position: absolute;
+    left: 170px;
+    bottom: 6px;
+}
+
+nav {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+    padding-left: 3rem;
+}
+
+nav p {
+    position: absolute;
+    right: 200px;
+    top: 63px;
+}
+
+nav button {
+    position: absolute;
+    right: 70px;
+    top: 60px;
+}
+
+.images {
+    padding-top: 4rem;
+    padding-left: 3rem;
+    position: relative;
+}
+
+.amazon {
+    position: absolute;
+    left: 220px;
+    bottom: 14px;
+}
+
+.samsung {
+    position: absolute;
+    left: 430px;
+    bottom: 27px;
+}
+
+.google {
+    position: absolute;
+    left: 620px;
+    bottom: 0px;
+}
+
+main {
+    padding-top: 5rem;
+    position: relative;
+}
+
+main .ft {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: blue;
+    padding-bottom: 1rem;
+}
+
+.head {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700px;
+}
+
+.boxes {
+    position: relative;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    border: 1px solid black ;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding-top: 40px;      
+}
+
+.first {
+    padding-left: 50px;
+    padding-top: 56px;
+    padding-bottom: 50px;
+}
+
+.second {
+    padding-left: 120px;
+    padding-top: 0px;
+    position: absolute;
+    top: 56px;
+    left: 210px;
+}
+
+.third {
+    position: absolute;
+    top: 56px;
+    right: 93px;
+
+}
+
+.fourth {
+    padding-left: 180px;
+    padding-bottom: 2rem;
+}
+
+.fifth {
+    position: absolute;
+    top: 305.5px;
+    padding-left: 460px;
+}
+
+.choose {
+    padding-top: 40px;
+    color: blue;
+    font-size: 23px;
+    padding-bottom: 1rem;
+}
+
+.trans {
+    position: relative;
+    padding: 5rem;
+}
+
+figure {
+    position: absolute;
+    top: 150px;
+    right: 110px;
+}
+
+.trans h2 {
+    padding-bottom: 1rem;
+}
+
+.trans .one {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    max-width: 46%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 35px;
+}
+
+.trans .group {
+    padding-top: 1.3rem;
+}
+
+h3.discover {
+    margin: 80px 80px;
+    margin-bottom: 50px;
+    padding: 60px;
+    text-align: center;
+    border: none solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(65, 65, 255);
+}
+
+footer {
+    padding-top: 2rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+}
+
+
+.img1 {
+    padding-left: 6rem;
+}
+ 
+.footerul {
+    list-style: none;
+    position: absolute;
+    top: 2rem;
+    left: 320px;
+}
+
+.end {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.footerul2 {
+    list-style: none;
+    position: absolute;
+    top: 2rem;
+    left: 460px;
+}
+
+.end2 {
+    font-size: 12px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.footerul3 {
+    list-style: none;
+    position: absolute;
+    top: 2rem;
+    left: 610px;
+}
+
+.end3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+input {
+    padding: 6px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dfdfdf;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}

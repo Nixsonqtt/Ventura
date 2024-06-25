@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html {
+    background-color: #f5f5f5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 1rem;
+    font-family: Inter;
+    background-color: white;
+    padding-bottom: 7rem;
+    box-shadow: 2px 2px 30px;
+    border-radius: 5px;
+}
+
+.navul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 20px;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+nav {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+    padding-left: 3rem;
+}
+
+nav p {
+    position: absolute;
+    right: 200px;
+    top: 63px;
+}
+
+nav button {
+    position: absolute;
+    right: 70px;
+    top: 60px;
+}
+
+button {
+    font-family: Inter;
+    color: white;
+    background-color: blue;
+    padding: 7px;
+    border-radius: 8px;
+    border: none;
+}
+
+header {
+    text-align: center;
+    padding-top: 1.3rem;
+}
+
+h1 {
+    color: blue;
+    padding-bottom: 7px;
+}
+
+p {
+    padding-bottom: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 60px;
+    position: relative;
+}
+
+.img1 {
+    padding-left: 160px;
+}
+
+.text {
+    position: absolute;
+    right: 150px;
+    top: 70px;
+} 
+
+h3 {
+    color: blue;
+    padding-bottom: 9px;
+}
+
+h2 {
+    padding-bottom: 4px;
+}
+
+.para {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.group {
+    padding-top: 10px;
+}
+
+.lower {
+    padding-top: 130px;
+    padding-left: 110px;
+}
